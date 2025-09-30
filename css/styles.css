@@ -522,7 +522,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background new.png') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background-alone.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -988,6 +988,14 @@ a:hover.back-to-top {
 	margin-top: 0.125rem;
 	margin-bottom: 0.375rem;
 }
+.profile-img {
+  width: 250px;        /* adjust as needed */
+  height: 250px;       /* keep it square */
+  object-fit: cover;   /* avoids distortion */
+  border-radius: 50%;  /* makes it circular */
+  border: 5px solid #fff; /* optional border for contrast */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* optional subtle shadow */
+}
 
 
 /*************************/
@@ -1280,3 +1288,4 @@ a:hover.back-to-top {
 }
 
 /* end of min-width 1200px */
+
