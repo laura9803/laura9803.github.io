@@ -1299,11 +1299,14 @@ a:hover.back-to-top {
   background-color: #000; /* or #fff to match your site background */
   border-radius: 10px;
 }
+
+
 @media (max-width: 768px) {
   .image-container img {
     height: 180px;
   }
 }
+
 
 
 
