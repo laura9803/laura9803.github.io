@@ -898,6 +898,12 @@ input[type='checkbox'] {
 	color: #9da6ac;
 }
 
+.image-container img {
+  width: 100%;
+  height: 250px; /* adjust depending on how tall you want them */
+  object-fit: cover;
+  border-radius: 10px; /* optional for rounded corners */
+}
 
 /******************************/
 /*     Back To Top Button     */
@@ -1285,5 +1291,6 @@ a:hover.back-to-top {
   background-color: #000; /* optional, adds black bars around */
   border-radius: 10px;
 }
+
 
 
