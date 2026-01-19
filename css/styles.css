@@ -1304,6 +1304,32 @@ a:hover.back-to-top {
 
 
 
+.email-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+}
+
+/* Make email images smaller */
+.email-project-grid img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+  .email-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .email-project-grid img {
+    max-width: 70%;
+  }
+}
+
 
 
 
